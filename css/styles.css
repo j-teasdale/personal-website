@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   color: #8FD9A8;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin: 10px auto;
   font-weight: bold;
 }
@@ -47,15 +47,15 @@ a:hover {
 }
 
 hr {
-  border: solid #3F4441 1px;
+  border: solid lightgray 1px;
   width: 30%;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 /* Containers */
 
 .container-fluid {
-  padding: 5% 20%;
+  padding: 5% 10%;
 }
 
 /* .top-container {
@@ -65,7 +65,7 @@ hr {
 } */
 
 .biopic {
-  width: 15%;
+  width: 25%;
   margin: 10px auto 10px auto;
   border-radius: 200%;
   border-style: solid;
@@ -82,8 +82,7 @@ hr {
 } */
 
 .skills {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
 
 .skill-row {
@@ -106,18 +105,13 @@ hr {
 
 /** Bottom container / footer **/
 
-/* .bottom-container {
-  padding: 50px 0 20px;
-} */
-
 .contact-h3 {
   width: 30%;
   font-size: 2rem;
   line-height: 2;
 }
 .contact-message {
-  margin: 20px auto 20px auto;
-  width: 50%;
+  text-align: left;
 }
 
 /** Button **/
