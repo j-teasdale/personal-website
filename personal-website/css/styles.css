@@ -1,0 +1,159 @@
+body {
+  background-color: #061b31;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: auto 10%;
+  padding: 10px;
+  color: white;
+}
+
+h1, h2, h3, h4, p, a {
+  margin: 15px auto 15px auto;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font: 'Arial';
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  color: white;
+  line-height: 1.75;
+  font-size: 1.25rem;
+}
+
+a {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 0;
+  margin-right: 40px;
+}
+a:hover {
+  color: lightgray;
+}
+
+hr {
+  border: solid lightgray 1px;
+  width: 30%;
+  margin: auto;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+.profile {
+  text-align: left;
+  margin: 10px auto;
+}
+
+.biopic {
+  width: 20%;
+  border-radius: 200%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #EAEBD8;
+  margin: 0 60px 0 0;
+  float: left;
+}
+
+.intro-div {
+  text-align: left;
+  margin: 10px auto;
+}
+
+.anchors {
+  text-align: left;
+}
+
+.skills {
+  margin: 10px auto;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 40px auto;
+}
+
+.webdevpic {
+  color: white;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.musicproduction {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+/** Bottom container / footer **/
+
+.contact-h3 {
+  width: 30%;
+  font-size: 2rem;
+  line-height: 2;
+}
+.contact-message {
+  text-align: center;
+}
+
+/** Button **/
+
+.btn {
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  background: #21e6c1;
+  padding: 14px 22px 14px 22px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2378ad;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
+
+.attributions p {
+  font-size: .5rem;
+  margin: 0;
+}
+.attributions a {
+  font-size: .5rem;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
